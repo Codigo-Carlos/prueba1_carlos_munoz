@@ -12,6 +12,9 @@
 .cabeza ul li {
     margin-left:    20px;
     list-style:     none;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: content-box;
 }
 .imagen1 {
     padding-top: 250px;
@@ -27,22 +30,34 @@
     font-weight: bold;
     font-size: 44px;
 }
-.boxcontenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-    justify-content: center;
-}
 .medio{
     text-align: center;
 }
 
-.box {
+.boxcontenedor {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    border: 1px solid blue;
+    margin: 20px;
+    
 }
 .box img{
-    height: 400px;
-    width: 400px;
+    height: max-content;
+    width: auto;
+    border: 1px solid orange;
+}
+.box p {
+    text-align: center;
+}
+.medio2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
