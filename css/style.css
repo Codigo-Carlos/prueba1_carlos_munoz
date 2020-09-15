@@ -14,8 +14,35 @@
     list-style:     none;
 }
 .imagen1 {
-    border: 1px solid red;
-    height: 100%;
-    width: 100%;
+    padding-top: 250px;
     
+}
+.imagen1 H1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+.imagen1 H4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+}
+.boxcontenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+}
+.medio{
+    text-align: center;
+}
+
+.box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+.box img{
+    height: 400px;
+    width: 400px;
 }
