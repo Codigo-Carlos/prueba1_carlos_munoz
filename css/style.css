@@ -1,44 +1,53 @@
-.cabeza {
-    
+
+.cabeza{
+    box-shadow: 1px 1px 20PX;
+    margin: 20px;
+}
+
+.barra {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
 }
-.cabeza ul {
+.barra ul {
     display: flex;
-    
+    text-justify: center;
 }
-.cabeza ul li {
+.barra ul li {
     margin-left:    20px;
     list-style:     none;
-    list-style-type: none;
     text-decoration: none;
-    box-sizing: content-box;
+    border: 1px solid blue;
 }
 .imagen1 {
-    padding-top: 300px;
+    height: 1000px;
     background: url("../img/principal.jpg");
-    background-size: auto;
-    padding-bottom: 300px;
-    border: 1px solid blue;
-    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 .imagen1 H1 {
-    color:gray;
+    padding-top: 400px;
+    color:lightskyblue;
     text-align: center;
-    font-weight: bold;
-    font-size: 120px;
+    font-size: 100px;
     
 }
 .imagen1 H4 {
-    color:gray;
+    color:lightskyblue;
     text-align: center;
     font-weight: bold;
     font-size: 44px;
 }
 .medio{
+    background: rgb(240, 240, 240);
     padding: 200px;
     text-align: center;
+}
+.medio H1 {
+    border-bottom:10px solid gray ; 
+    border-collapse: separate;
+    border-spacing: 10px;
 }
 
 .boxcontenedor {
@@ -52,19 +61,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid blue;
-    margin: 20px;
-    
+    box-shadow: 1px 1px 20PX;
+    background: white;
+    overflow: hidden;
+    margin: 40px;
 }
 .box img{
     height: auto;
     width: 100%;
-    border: 1px solid orange;
+
 }
 .box p {
     
     display: flex;
     justify-content: center;
+    font-size: 20px;
 }
 .medio2 {
     display: grid;
