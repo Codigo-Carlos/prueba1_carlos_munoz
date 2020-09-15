@@ -1,0 +1,21 @@
+.cabeza {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(136, 187, 230) ;
+    padding: 20px;
+}
+.cabeza ul {
+    display: flex;
+    
+}
+.cabeza ul li {
+    margin-left:    20px;
+    list-style:     none;
+}
+.imagen1 {
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+    
+}
