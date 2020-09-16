@@ -3,6 +3,13 @@
 
     margin: 20px;
 }
+.menub img{
+    right:-100%;
+    height: 75px;
+    width:  75px;
+    margin:0;
+    position: fixed;
+}
 ul li:hover a {
     border: 2px solid gray;
 }
@@ -178,15 +185,17 @@ padding: 80px 20px 80px 20px;
 .yo {
     display: flex;
     justify-content: left;
-    border: 1px solid blue;
-    margin-left: 400px ;
-    margin-right: 400px;
-    background: lightgray;
+    width: 300px;
+    background: rgb(240, 240, 240);
 }
 .yo img {
-    height: 100px;
-    width: 100px;
-    margin-right: 50px;
+    height:     60px;
+    width:      60px;
+    margin:     15px;
+}
+.XD {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width:800px ) {
@@ -196,7 +205,13 @@ padding: 80px 20px 80px 20px;
 		right:-100%;
 		margin:0;
         position: fixed;
-        
+    }
+    .menub img{
+        right: 0%;
+        height: 75px;
+        width:  75px;
+        margin:0;
+        position: absolute;
     }
     .imagen1 {
         height: 500px;
@@ -278,6 +293,13 @@ padding: 80px 20px 80px 20px;
         margin: 45px 20px 15px 20px;
         text-align: center;
         justify-content:space-around ;
+    }
+    .yo {
+        display: flex;
+        justify-content: left;
+        margin-left: 5px ;
+        margin-right: 5px;
+        background: rgb(240, 240, 240);
     }
     
 
